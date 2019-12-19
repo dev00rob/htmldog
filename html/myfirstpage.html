@@ -55,6 +55,45 @@
                 <td>Row 4, cell 3</td>
             </tr>
         </table>
+
+        <h3>
+            <a href="https://www.htmldog.com/guides/html/beginner/forms/">HTML Dog: Forms</a>
+        </h3>
+
+        <form action="processingscript.php" method="post">
+            <textarea rows="5" cols="20">A big load of text</textarea>
+            <br>
+            <select>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option value="third option">Option 3</option>
+            </select>
+            <br>
+        </form>
+
+        <form action="contactus.php" method="post">
+
+            <p>Name:</p>
+            <p><input type="text" name="name" value="Your name"></p>
+            
+            <p>Species:</p>
+            <p><input name="species"></p>
+            <!-- remember: 'type="text"' isn't actually necessary -->
+            
+            <p>Comments: </p>
+            <p><textarea name="comments" rows="5" cols="20">Your comments</textarea></p>
+            
+            <p>Are you:</p>
+            <p><input type="radio" name="areyou" value="male"> Male</p>
+            <p><input type="radio" name="areyou" value="female"> Female</p>
+            <p><input type="radio" name="areyou" value="hermaphrodite"> A hermaphrodite</p>
+            <p><input type="radio" name="areyou" value="asexual"> Asexual</p>
+            
+            <p><input type="submit"></p>
+            
+        </form>
+
+                
         
     </body>
     
